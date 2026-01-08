@@ -7,9 +7,10 @@ const PortfolioSection = () => {
     const [selectedItem, setSelectedItem] = useState(null);
     const [viewingCollection, setViewingCollection] = useState(null);
 
-    const filteredItems = activeCategory === "All"
+    const filteredItems = (activeCategory === "All"
         ? portfolioItems
-        : portfolioItems.filter(item => item.category === activeCategory);
+        : portfolioItems.filter(item => item.category === activeCategory)
+    ).filter(item => !item.hideFromMainGrid);
 
     let relatedWorks = selectedItem
         ? portfolioItems.filter(item =>
@@ -134,6 +135,7 @@ const PortfolioSection = () => {
                                                 src={item.image}
                                                 alt={item.title}
                                                 className="w-full h-full object-cover transition duration-700 group-hover:scale-110"
+                                                style={{ objectPosition: item.objectPosition || 'center' }}
                                             />
                                         ) : (
                                             <div className="opacity-10 transform group-hover:scale-110 transition duration-700">

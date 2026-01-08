@@ -79,9 +79,9 @@ export const portfolioItems = [
     },
     {
         id: 11,
-        title: "Paintings",
+        title: "Mandala Art",
         category: "Paintings",
-        subType: "Mixed Media",
+        subType: "Mandala Art",
         description: "Expressive mixed media paintings involving various techniques.",
         color: "bg-rose-100"
     },
@@ -92,6 +92,116 @@ export const portfolioItems = [
         subType: "Resin Art",
         description: "High-gloss resin pour with crushed glass and gold leaf detailing.",
         color: "bg-blue-100"
+    },
+    {
+        id: 12,
+        title: "Floral Texture Art",
+        category: "Modern",
+        subType: "Texture Art",
+        description: "Textured floral patterns with vibrant colors.",
+        color: "bg-rose-100",
+        image: "/floral_texture_art.png",
+        hideFromMainGrid: true
+    },
+    {
+        id: 13,
+        title: "Rustic Door Texture",
+        category: "Modern",
+        subType: "Texture Art",
+        description: "Textured art featuring a rustic door with floral accents.",
+        color: "bg-stone-100",
+        image: "/texture_art_door.jpg",
+        hideFromMainGrid: true
+    },
+    {
+        id: 14,
+        title: "Boho Portrait",
+        category: "Modern",
+        subType: "Boho Art",
+        description: "Faceless portrait painting on a round canvas with a bohemian aesthetic.",
+        color: "bg-orange-50",
+        image: "/boho_portrait.png",
+        hideFromMainGrid: true
+    },
+    {
+        id: 15,
+        title: "Ganesha Pencil Sketch",
+        category: "Sketches",
+        subType: "Pencil Art",
+        description: "Intricate pencil sketch of Lord Ganesha in a dancing pose.",
+        color: "bg-gray-100",
+        image: "/ganesha_pencil_sketch.png",
+        hideFromMainGrid: true,
+        objectPosition: "top"
+    },
+    {
+        id: 16,
+        title: "Mandala Face",
+        category: "Paintings",
+        subType: "Mandala Art",
+        description: "Intricate mandala patterns forming a woman's flowing hair.",
+        color: "bg-purple-50",
+        image: "/mandala_woman_face.png",
+        hideFromMainGrid: true
+    },
+    {
+        id: 17,
+        title: "Dancing Mandala",
+        category: "Paintings",
+        subType: "Mandala Art",
+        description: "A dancing figure with a dress made of detailed mandala patterns.",
+        color: "bg-purple-100",
+        image: "/mandala_dancing_girl.png",
+        hideFromMainGrid: true
+    },
+    {
+        id: 18,
+        title: "Janmashtami Mandala",
+        category: "Paintings",
+        subType: "Mandala Art",
+        description: "Festive mandala celebration feautring a flute and peacock feather.",
+        color: "bg-teal-50",
+        image: "/janmashtami_mandala.png",
+        hideFromMainGrid: true
+    },
+    {
+        id: 19,
+        title: "Butterfly Mandala",
+        category: "Paintings",
+        subType: "Mandala Art",
+        description: "Detailed butterfly wing patterns in a mandala style.",
+        color: "bg-teal-100",
+        image: "/butterfly_mandala.png",
+        hideFromMainGrid: true
+    },
+    {
+        id: 20,
+        title: "Ink Line Art",
+        category: "Sketches",
+        subType: "Ink Art",
+        description: "Whimsical mushroom houses with celestial elements and floral details in detailed ink work.",
+        color: "bg-slate-100",
+        image: "/ink_line_art.png"
+    },
+    {
+        id: 21,
+        title: "Wax Flower Vase",
+        category: "Crafts",
+        subType: "Crafts",
+        description: "Handcrafted wax flowers in a rustic twine-wrapped vase.",
+        color: "bg-pink-100",
+        image: "/flower_vase_craft.png",
+        hideFromMainGrid: true
+    },
+    {
+        id: 22,
+        title: "Handmade Bicycle",
+        category: "Crafts",
+        subType: "Crafts",
+        description: "Miniature decorative bicycle made from yellow yarn and wood.",
+        color: "bg-yellow-100",
+        image: "/bicycle_craft.png",
+        hideFromMainGrid: true
     }
 ];
 

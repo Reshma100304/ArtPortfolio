@@ -18,6 +18,7 @@ const Navbar = () => {
                         <a href="#about" className="hover:text-amber-600 transition-colors">About</a>
                         <a href="#portfolio" className="hover:text-amber-600 transition-colors">Portfolio</a>
                         <a href="#services" className="hover:text-amber-600 transition-colors">Services</a>
+                        <a href="#reviews" className="hover:text-amber-600 transition-colors">Reviews</a>
                         <a href="#contact" className="bg-stone-900 text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-stone-700 transition-all">
                             Get in Touch
                         </a>
@@ -37,6 +38,7 @@ const Navbar = () => {
                         <a href="#about" onClick={toggleMenu} className="block px-3 py-2 rounded-md hover:bg-stone-50">About</a>
                         <a href="#portfolio" onClick={toggleMenu} className="block px-3 py-2 rounded-md hover:bg-stone-50">Portfolio</a>
                         <a href="#services" onClick={toggleMenu} className="block px-3 py-2 rounded-md hover:bg-stone-50">Services</a>
+                        <a href="#reviews" onClick={toggleMenu} className="block px-3 py-2 rounded-md hover:bg-stone-50">Reviews</a>
                         <a href="#contact" onClick={toggleMenu} className="block px-3 py-2 text-amber-600 font-bold">Contact Me</a>
                     </div>
                 </div>

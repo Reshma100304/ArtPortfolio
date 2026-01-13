@@ -18,13 +18,13 @@ const Footer = () => (
                 </a>
             </div>
 
-            <div className="border-t border-stone-100 pt-8 flex flex-col md:flex-row justify-between items-center text-stone-500 text-sm">
+            {/* <div className="border-t border-stone-100 pt-8 flex flex-col md:flex-row justify-between items-center text-stone-500 text-sm">
                 <p>&copy; 2024 Your Art Brand. All rights reserved.</p>
                 <div className="flex gap-4 mt-4 md:mt-0">
                     <span className="hover:text-stone-900 cursor-pointer">Privacy Policy</span>
                     <span className="hover:text-stone-900 cursor-pointer">Terms of Service</span>
                 </div>
-            </div>
+            </div> */}
         </div>
     </footer>
 );

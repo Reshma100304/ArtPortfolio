@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import PortfolioSection from './components/PortfolioSection';
 import ServicesSection from './components/ServicesSection';
+import ReviewsSection from './components/ReviewsSection';
 import Footer from './components/Footer';
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
             <AboutSection />
             <PortfolioSection />
             <ServicesSection />
+            <ReviewsSection />
             <Footer />
         </div>
     );

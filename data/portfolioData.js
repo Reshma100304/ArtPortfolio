@@ -71,19 +71,21 @@ export const portfolioItems = [
     },
     {
         id: 9,
-        title: "String Art",
+        title: "String Art Vase",
         category: "Modern",
         subType: "String Art",
-        description: "Geometric patterns interwoven with colorful threads on a wooden base.",
-        color: "bg-cyan-100"
+        description: "A unique 3D string art piece forming a vase silhouette, holding vibrant botanical elements.",
+        color: "bg-cyan-100",
+        image: "/string_art_vase.png"
     },
     {
         id: 11,
-        title: "Mandala Art",
+        title: "Butterfly Mandala",
         category: "Paintings",
         subType: "Mandala Art",
-        description: "Expressive mixed media paintings involving various techniques.",
-        color: "bg-rose-100"
+        description: "A striking fusion of half-mandala patterns and a butterfly wing, accented with elegant flowing leaves.",
+        color: "bg-rose-100",
+        image: "/mandala_main.png"
     },
     {
         id: 2,
@@ -201,6 +203,26 @@ export const portfolioItems = [
         description: "Miniature decorative bicycle made from yellow yarn and wood.",
         color: "bg-yellow-100",
         image: "/bicycle_craft.png",
+        hideFromMainGrid: true
+    },
+    {
+        id: 23,
+        title: "Moonlit Mountains",
+        category: "Paintings",
+        subType: "Acrylic",
+        description: "Acrylic painting on canvas featuring a large moon rising over silhouetted mountains and pine trees, with a reflection on the water.",
+        color: "bg-slate-800",
+        image: "/moon_landscape_acrylic.png",
+        hideFromMainGrid: true
+    },
+    {
+        id: 24,
+        title: "Divine Grace",
+        category: "Paintings",
+        subType: "Acrylic",
+        description: "An elegant acrylic painting depicting feet adorned with traditional anklets and alta, symbolizing grace and tradition.",
+        color: "bg-red-50",
+        image: "/traditional_feet_acrylic.png",
         hideFromMainGrid: true
     }
 ];

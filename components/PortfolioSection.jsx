@@ -164,9 +164,14 @@ const PortfolioSection = () => {
                             <p className="text-stone-500 text-sm leading-relaxed mb-8">
                                 Every piece in the {viewingCollection} collection is handcrafted with care. If you have a specific design or vision in mind, I'd love to collaborate on a bespoke creation for you.
                             </p>
-                            <button className="bg-stone-900 text-white px-10 py-4 rounded-full font-bold text-xs uppercase tracking-widest hover:bg-amber-700 transition-all shadow-xl hover:shadow-amber-700/20">
+                            <a
+                                href="https://ig.me/m/artistry_reshuu"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-block bg-stone-900 text-white px-10 py-4 rounded-full font-bold text-xs uppercase tracking-widest hover:bg-amber-700 transition-all shadow-xl hover:shadow-amber-700/20"
+                            >
                                 Start a Conversation
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>

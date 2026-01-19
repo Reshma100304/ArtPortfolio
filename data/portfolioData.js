@@ -50,7 +50,8 @@ export const portfolioItems = [
         category: "Modern",
         subType: "Boho Art",
         description: "Minimalist earthy tones with botanical line illustrations.",
-        color: "bg-green-100"
+        color: "bg-green-100",
+        image: "/boho_botanical_main.jpg"
     },
     {
         id: 7,
@@ -67,7 +68,8 @@ export const portfolioItems = [
         category: "Sketches",
         subType: "Line Art",
         description: "Continuous line drawing representing connection and flow.",
-        color: "bg-neutral-100"
+        color: "bg-neutral-100",
+        image: "/line_art_family_updated.jpg"
     },
     {
         id: 9,

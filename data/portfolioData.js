@@ -36,6 +36,42 @@ export const portfolioItems = [
         image: "/kolam_art.png"
     },
     {
+        id: 9,
+        title: "String Art Vase",
+        category: "Modern",
+        subType: "String Art",
+        description: "A unique 3D string art piece forming a vase silhouette, holding vibrant botanical elements.",
+        color: "bg-cyan-100",
+        image: "/string_art_vase.png"
+    },
+    {
+        id: 7,
+        title: "The Patronus Charm",
+        category: "Paintings",
+        subType: "Acrylic",
+        description: "A mystical white stag illuminating the dark forest. Inspired by the wizarding world.",
+        color: "bg-indigo-100",
+        image: "/patronus_charm.jpg"
+    },
+    {
+        id: 11,
+        title: "Butterfly Mandala",
+        category: "Paintings",
+        subType: "Mandala Art",
+        description: "A striking fusion of half-mandala patterns and a butterfly wing, accented with elegant flowing leaves.",
+        color: "bg-rose-100",
+        image: "/mandala_main.png"
+    },
+    {
+        id: 8,
+        title: "Minimalist Single Line",
+        category: "Sketches",
+        subType: "Line Art",
+        description: "Continuous line drawing representing connection and flow.",
+        color: "bg-neutral-100",
+        image: "/line_art_family_updated.jpg"
+    },
+    {
         id: 5,
         title: "Eiffel Tower Sketch",
         category: "Sketches",
@@ -54,48 +90,13 @@ export const portfolioItems = [
         image: "/boho_botanical_main.jpg"
     },
     {
-        id: 7,
-        title: "The Patronus Charm",
-        category: "Paintings",
-        subType: "Acrylic",
-        description: "A mystical white stag illuminating the dark forest. Inspired by the wizarding world.",
-        color: "bg-indigo-100",
-        image: "/patronus_charm.jpg"
-    },
-    {
-        id: 8,
-        title: "Minimalist Single Line",
-        category: "Sketches",
-        subType: "Line Art",
-        description: "Continuous line drawing representing connection and flow.",
-        color: "bg-neutral-100",
-        image: "/line_art_family_updated.jpg"
-    },
-    {
-        id: 9,
-        title: "String Art Vase",
-        category: "Modern",
-        subType: "String Art",
-        description: "A unique 3D string art piece forming a vase silhouette, holding vibrant botanical elements.",
-        color: "bg-cyan-100",
-        image: "/string_art_vase.png"
-    },
-    {
-        id: 11,
-        title: "Butterfly Mandala",
-        category: "Paintings",
-        subType: "Mandala Art",
-        description: "A striking fusion of half-mandala patterns and a butterfly wing, accented with elegant flowing leaves.",
-        color: "bg-rose-100",
-        image: "/mandala_main.png"
-    },
-    {
         id: 2,
-        title: "Ocean Blue Geode",
+        title: "Resin Butterfly Pendant",
         category: "Modern",
         subType: "Resin Art",
-        description: "High-gloss resin pour with crushed glass and gold leaf detailing.",
-        color: "bg-blue-100"
+        description: "Handcrafted resin pendant featuring a delicate butterfly and gold leaf accents.",
+        color: "bg-blue-100",
+        image: "/resin_butterfly_necklace.png"
     },
     {
         id: 12,
@@ -180,7 +181,7 @@ export const portfolioItems = [
     },
     {
         id: 20,
-        title: "Ink Line Art",
+        title: "Ink  Art",
         category: "Sketches",
         subType: "Ink Art",
         description: "Whimsical mushroom houses with celestial elements and floral details in detailed ink work.",
@@ -225,6 +226,16 @@ export const portfolioItems = [
         description: "An elegant acrylic painting depicting feet adorned with traditional anklets and alta, symbolizing grace and tradition.",
         color: "bg-red-50",
         image: "/traditional_feet_acrylic.png",
+        hideFromMainGrid: true
+    },
+    {
+        id: 25,
+        title: "Resin Initial Keychains",
+        category: "Modern",
+        subType: "Resin Art",
+        description: "Custom handcrafted resin keychains with gold leaf and floral preservation.",
+        color: "bg-blue-50",
+        image: "/resin_initial_keychains.png",
         hideFromMainGrid: true
     }
 ];

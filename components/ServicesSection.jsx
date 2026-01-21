@@ -40,6 +40,12 @@ const ServicesSection = () => (
                     </p>
                 </div>
             </div>
+
+            <div className="mt-16 text-center">
+                <p className="text-stone-400 italic font-light tracking-wide">
+                    "Promising to give the best output with affordable pricing"
+                </p>
+            </div>
         </div>
     </section>
 );

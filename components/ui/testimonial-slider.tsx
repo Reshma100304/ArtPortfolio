@@ -187,14 +187,14 @@ const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonials }) =
                             style={{ cursor: 'grab' }}
                         >
                             <motion.div
-                                className="relative overflow-hidden rounded-3xl p-8 h-full bg-white dark:bg-gray-800 border border-stone-100 dark:border-gray-700 shadow-sm hover:shadow-xl transition-all duration-500"
+                                className="relative overflow-hidden rounded-3xl p-6 h-full bg-white dark:bg-gray-800 border border-stone-100 dark:border-gray-700 shadow-sm hover:shadow-xl transition-all duration-500"
                             >
                                 <div className="absolute -top-4 -left-4 opacity-5 dark:opacity-10">
                                     <Quote size={80} className="text-primary dark:text-primary-light" />
                                 </div>
 
                                 <div className="relative z-10 h-full flex flex-col">
-                                    <div className="flex gap-1 mb-6 text-amber-500">
+                                    <div className="flex gap-1 mb-4 text-amber-500">
                                         {[...Array(testimonial.rating || 5)].map((_, i) => (
                                             <motion.div
                                                 initial={{ opacity: 0, scale: 0 }}
@@ -209,7 +209,7 @@ const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonials }) =
                                         ))}
                                     </div>
 
-                                    <p className="text-base sm:text-lg text-stone-600 dark:text-gray-300 italic mb-8 leading-relaxed">
+                                    <p className="text-sm sm:text-base text-stone-600 dark:text-gray-300 italic mb-6 leading-relaxed">
                                         &ldquo;{testimonial.content || testimonial.quote}&rdquo;
                                     </p>
 
@@ -220,10 +220,10 @@ const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonials }) =
                                                     <img
                                                         src={testimonial.avatar}
                                                         alt={testimonial.name}
-                                                        className="w-12 h-12 rounded-full object-cover border-2 border-white dark:border-gray-800 shadow-sm"
+                                                        className="w-10 h-10 rounded-full object-cover border-2 border-white dark:border-gray-800 shadow-sm"
                                                     />
                                                 ) : (
-                                                    <div className="w-12 h-12 bg-amber-50 text-amber-700 rounded-full flex items-center justify-center font-bold text-lg">
+                                                    <div className="w-10 h-10 bg-amber-50 text-amber-700 rounded-full flex items-center justify-center font-bold text-base">
                                                         {testimonial.name.charAt(0)}
                                                     </div>
                                                 )}

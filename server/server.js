@@ -14,12 +14,31 @@ app.use(express.json());
 
 // MongoDB Connection
 console.log('Attempting to connect to MongoDB...');
-mongoose.connect(process.env.MONGODB_URI)
-    .then(() => console.log('Successfully connected to MongoDB'))
-    .catch(err => {
+const connectDB = async () => {
+    try {
+        await mongoose.connect(process.env.MONGODB_URI, {
+            serverSelectionTimeoutMS: 5000, // Timeout after 5s
+            socketTimeoutMS: 45000, // Close sockets after 45s of inactivity
+        });
+        console.log('Successfully connected to MongoDB');
+    } catch (err) {
         console.error('CRITICAL: MongoDB connection error:');
         console.error(err);
-    });
+        // Retry logic could be added here
+    }
+};
+
+connectDB();
+
+// Handle connection loss
+mongoose.connection.on('error', err => {
+    console.error('MongoDB connection lost:', err);
+});
+
+mongoose.connection.on('disconnected', () => {
+    console.log('MongoDB disconnected. Attempting to reconnect...');
+    connectDB();
+});
 
 // Middleware to check DB connection
 const checkDbConnection = (req, res, next) => {

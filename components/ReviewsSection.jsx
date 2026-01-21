@@ -17,7 +17,7 @@ const initialReviews = [
         id: 'seed-2',
         name: "Rahul Verma",
         role: "Gift Buyer",
-        content: "Ordered a custom pencil sketch for my wife's birthday. She was in tears when she saw it. Reshma captured the emotions so beautifully.",
+        content: "Ordered a custom pencil sketch for my wife's birthday. She was in tears when she saw it.",
         rating: 5,
         avatar: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?fm=jpg&q=60&w=3000"
     },
@@ -25,7 +25,7 @@ const initialReviews = [
         id: 'seed-3',
         name: "Ananya Gupta",
         role: "Interior Enthusiast",
-        content: "The Mandala art I purchased brings such a calming vibe to my workspace. The colors and precision are top-notch. Highly recommended!",
+        content: "The Mandala art I purchased brings such a calming vibe to my workspace.Highly recommended!",
         rating: 5,
         avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?fm=jpg&q=60&w=3000"
     }

@@ -137,8 +137,8 @@ const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonials }) =
                     onClick={goPrev}
                     disabled={!canGoPrev}
                     className={`p-3 rounded-full ${canGoPrev
-                            ? 'bg-white dark:bg-gray-700 shadow-md hover:bg-gray-50 dark:hover:bg-gray-600 text-primary dark:text-primary-light border border-stone-100'
-                            : 'bg-gray-50 dark:bg-gray-800 text-gray-300 cursor-not-allowed border border-stone-50'
+                        ? 'bg-white dark:bg-gray-700 shadow-md hover:bg-gray-50 dark:hover:bg-gray-600 text-primary dark:text-primary-light border border-stone-100'
+                        : 'bg-gray-50 dark:bg-gray-800 text-gray-300 cursor-not-allowed border border-stone-50'
                         } transition-all duration-300`}
                     aria-label="Previous testimonial"
                 >
@@ -150,8 +150,8 @@ const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonials }) =
                     onClick={goNext}
                     disabled={!canGoNext}
                     className={`p-3 rounded-full ${canGoNext
-                            ? 'bg-white dark:bg-gray-700 shadow-md hover:bg-gray-50 dark:hover:bg-gray-600 text-primary dark:text-primary-light border border-stone-100'
-                            : 'bg-gray-50 dark:bg-gray-800 text-gray-300 cursor-not-allowed border border-stone-50'
+                        ? 'bg-white dark:bg-gray-700 shadow-md hover:bg-gray-50 dark:hover:bg-gray-600 text-primary dark:text-primary-light border border-stone-100'
+                        : 'bg-gray-50 dark:bg-gray-800 text-gray-300 cursor-not-allowed border border-stone-50'
                         } transition-all duration-300`}
                     aria-label="Next testimonial"
                 >
@@ -173,7 +173,7 @@ const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonials }) =
                         <motion.div
                             key={testimonial._id || testimonial.id}
                             className={`flex-shrink-0 w-full ${visibleCount === 3 ? 'md:w-1/3' :
-                                    visibleCount === 2 ? 'md:w-1/2' : 'w-full'
+                                visibleCount === 2 ? 'md:w-1/2' : 'w-full'
                                 } p-4`}
                             initial={{ opacity: 0.5, scale: 0.95 }}
                             animate={{ opacity: 1, scale: 1 }}
@@ -266,8 +266,8 @@ const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonials }) =
                         >
                             <motion.div
                                 className={`rounded-full transition-all duration-500 ${index === currentIndex
-                                        ? 'w-8 h-1.5 bg-primary dark:bg-primary-light'
-                                        : 'w-2 h-1.5 bg-stone-200 dark:bg-gray-600'
+                                    ? 'w-8 h-1.5 bg-primary dark:bg-primary-light'
+                                    : 'w-2 h-1.5 bg-stone-200 dark:bg-gray-600'
                                     }`}
                             />
                         </motion.button>

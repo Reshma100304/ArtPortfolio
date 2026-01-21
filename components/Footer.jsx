@@ -4,6 +4,9 @@ import { Mail, Instagram } from 'lucide-react';
 const Footer = () => (
     <footer id="contact" className="bg-white border-t border-stone-200 pt-20 pb-10">
         <div className="max-w-4xl mx-auto px-4 text-center">
+            <p className="text-amber-700 font-medium mb-4 uppercase tracking-[0.2em] text-sm">
+                Choose us to make your loved ones happy
+            </p>
             <h2 className="text-3xl font-serif text-stone-900 mb-6">Ready to Create Something Beautiful?</h2>
             <p className="text-stone-600 mb-8 max-w-xl mx-auto">
                 Customization details, pricing, and timelines are discussed personally to ensure your vision comes to life perfectly.
@@ -18,13 +21,15 @@ const Footer = () => (
                 </a>
             </div>
 
-            {/* <div className="border-t border-stone-100 pt-8 flex flex-col md:flex-row justify-between items-center text-stone-500 text-sm">
-                <p>&copy; 2024 Your Art Brand. All rights reserved.</p>
-                <div className="flex gap-4 mt-4 md:mt-0">
-                    <span className="hover:text-stone-900 cursor-pointer">Privacy Policy</span>
-                    <span className="hover:text-stone-900 cursor-pointer">Terms of Service</span>
+
+            <div className="border-t border-stone-100 mt-12 pt-8">
+                <p className="text-stone-400 italic text-sm mb-4">
+                    Customized with lots of love, just for you 🤍
+                </p>
+                <div className="text-stone-300 text-xs">
+                    &copy; {new Date().getFullYear()} Artistry by Reshu.
                 </div>
-            </div> */}
+            </div>
         </div>
     </footer>
 );
